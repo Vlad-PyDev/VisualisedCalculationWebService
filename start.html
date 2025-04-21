@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{.Title}}</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background: linear-gradient(135deg, #6e8efb, #a777e3);
+                font-family: Arial, sans-serif;
+            }
+            .start-container {
+                text-align: center;
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            }
+            .start-button {
+                padding: 10px 20px;
+                font-size: 18px;
+                background-color: #ff9500;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.2s;
+            }
+            .start-button:hover {
+                background-color: #e68a00;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="start-container">
+            <h1>Добро пожаловать!</h1>
+            <p>Нажмите кнопку ниже, чтобы начать работу с калькулятором.</p>
+            <a href="/calculator"><button class="start-button">Перейти к калькулятору</button></a>
+        </div>
+    </body>
+</html>
