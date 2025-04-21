@@ -8,7 +8,7 @@ Dowload zip-file and unpack him
 
 # To Setup
 
-1. Install Python
+1. Install Golang
 2. Install lib - github.com/Knetic/govaluate
 
 ```bash
